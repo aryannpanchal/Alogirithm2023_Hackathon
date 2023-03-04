@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bombay EdTech</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="contactus.css" rel="stylesheet">
+</head>
+<style>
+    @import url('http://fonts.cdnfonts.com/css/kepler-std');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Kepler Std', sans-serif;
+    }
+
+    .flex-r,
+    .flex-c {
+        justify-content: right;
+        align-items: right;
+        display: flex;
+        height: 50px;
+    }
+
+    .flex-c {
+        flex-direction: column;
+    }
+
+    .flex-r {
+        flex-direction: row;
+    }
+
+    .container {
+        width: 100%;
+        min-height: 85vh;
+        padding: 10px 80px;
+
+    }
+
+    .login-text {
+        background-color: #f6f6f6;
+        max-width: 400px;
+        min-height: 500px;
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+        margin-bottom: 20px;
+        font-family: 'Kepler Std', sans-serif;
+        @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  font-family:'Roboto';
+        color: #0d8aa7;
+        font-family: 'Kepler Std', sans-serif;
+
+    }
+
+    font-family: 'Kepler Std',
+    sans-serif;
+
+    .login-text h1 {
+        font-size: 25px;
+    }
+
+    .login-text p {
+        font-size: 15px;
+        color: #000000b2;
+    }
+
+    form {
+        align-items: flex-start !important;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .input-box {
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .label {
+        font-size: 15px;
+        color: black;
+        margin-bottom: 3px;
+    }
+
+    .input {
+        background-color: #f6f6f6;
+        padding: 0px 5px;
+        border: 2px solid rgba(216, 216, 216, 1);
+        border-radius: 10px;
+        overflow: hidden;
+        justify-content: flex-start;
+    }
+
+    input {
+        border: none;
+        outline: none;
+        padding: 10px 5px;
+        background-color: #f6f6f6;
+        flex: 1;
+    }
+
+    .input i {
+        color: rgba(0, 0, 0, 0.4);
+    }
+
+    .check span {
+        color: #000000b2;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    .btn {
+        color: #ffffff;
+        border-radius: 30px;
+        padding: 10px 15px;
+        background: linear-gradient(122.33deg, #68bed1 30.62%, #1e94e9 100%);
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        transition: all 0.3s linear;
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+    }
+
+    .extra-line {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .extra-line a {
+        color: #0095b6;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: cursive;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+    }
+
+    .bg {
+        /* The image used */
+        background-image: url("Home.jpg");
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .nav-links a {
+        color: #fff;
+    }
+
+    /* LOGO */
+    .logo {
+        font-size: 32px;
+        color: white;
+        
+    }
+
+    /* NAVBAR MENU */
+    .menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+    }
+
+    .menu li:hover {
+        background-color: #4c9e9e;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    .menu li {
+        padding: 5px 14px;
+    }
+
+    /* DROPDOWN MENU */
+    .services {
+        position: relative;
+    }
+
+    .dropdown {
+        background-color: rgb(1, 139, 139);
+        padding: 1em 0;
+        position: absolute;
+        /*WITH RESPECT TO PARENT*/
+        display: none;
+        border-radius: 8px;
+        top: 35px;
+    }
+
+
+    .dropdown li+li {
+        margin-top: 10px;
+    }
+
+    .dropdown li {
+        padding: 0.5em 1em;
+        width: 8em;
+        text-align: center;
+    }
+
+    .dropdown li:hover {
+        background-color: #4c9e9e;
+    }
+
+    .services:hover .dropdown {
+        display: block;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .flip-box {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        border: 1px solid #f1f1f1;
+        perspective: 1000px;
+    }
+
+    .flip-box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+    .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-box-front,
+    .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .flip-box-front {
+        background-color: #bbb;
+        color: black;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+    }
+
+    footer {
+        width: 100%;
+        position: static;
+        bottom: 0;
+        left: 0;
+        background: #111;
+    }
+
+    footer .content {
+        max-width: 1350px;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer .content p,
+    a {
+        color: #fff;
+    }
+
+    footer .content .box {
+        width: 33%;
+        transition: all 0.4s ease;
+    }
+
+    footer .content .topic {
+        font-size: 22px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 16px;
+
+    }
+
+    footer .content p {
+        text-align: justify;
+    }
+
+    footer .content .lower .topic {
+        margin: 24px 0 5px 0;
+    }
+
+    footer .content .lower i {
+        padding-right: 16px;
+    }
+
+    footer .content .middle {
+        padding-left: 80px;
+    }
+
+    footer .content .middle a {
+        line-height: 32px;
+    }
+
+    footer .content .right input[type="text"] {
+        height: 45px;
+        width: 100%;
+        outline: none;
+        color: #d9d9d9;
+        background: #000;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-size: 17px;
+        border: 2px solid #222222;
+    }
+
+    footer .content .right input[type="submit"] {
+        height: 42px;
+        width: 100%;
+        font-size: 18px;
+        color: #d9d9d9;
+        background: #eb2f06;
+        outline: none;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        margin-top: 12px;
+        border: 2px solid #eb2f06;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .content .right input[type="submit"]:hover {
+        background: none;
+        color: #eb2f06;
+    }
+
+    footer .content .media-icons a {
+        font-size: 16px;
+        height: 45px;
+        width: 45px;
+        display: inline-block;
+        text-align: center;
+        line-height: 43px;
+        border-radius: 5px;
+        border: 2px solid #1e94e9;
+        margin: 30px 5px 0 0;
+        transition: all 0.3s ease;
+    }
+
+    .content .media-icons a:hover {
+        border-color: #eb2f06;
+    }
+
+    footer .bottom {
+        width: 100%;
+        text-align: right;
+        color: #d9d9d9;
+        padding: 0 40px 5px 0;
+    }
+
+    footer .bottom a {
+        color: #eb2f06;
+    }
+
+    footer a {
+        transition: all 0.3s ease;
+    }
+
+    footer a:hover {
+        color: #eb2f06;
+    }
+
+    @media (max-width:1100px) {
+        footer .content .middle {
+            padding-left: 50px;
+        }
+    }
+
+    @media (max-width:950px) {
+        footer .content .box {
+            width: 50%;
+        }
+
+        .content .right {
+            margin-top: 40px;
+        }
+    }
+
+    @media (max-width:560px) {
+        footer {
+            position: relative;
+        }
+
+        footer .content .box {
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        footer .content .middle {
+            padding-left: 0;
+        }
+    }
+
+
+
+
+    .flip-box-back {
+        background-color: dodgerblue;
+        color: white;
+        transform: rotateY(180deg);
+    }
+
+    .bg {
+        background-image: url("HNEW.jpg");
+    }
+    
+</style>
+
+
+<body>
+
+    <!-- Navbar Start -->
+    <div class="bg">
+        <div class="container-fluid p-0 nav-bar">
+            <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+
+
+                <div class="logo">BombayEdTech</div>
+
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto p-4">
+                        <a href="home copy 2.html" class="nav-item nav-link ">Home</a>
+                        <a href="login.html" class="nav-item nav-link">Sign Up</a>
+                        <a href="aboutus.html" class="nav-item nav-link">About Us</a>
+                        <a href="contactus.html" class="nav-item nav-link active" >Contact Us</a> 
+                        <a href="resources.html" class="nav-item nav-link" >Resources</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <br><br><br><br><br><br>
+
+
+        
+    </div>
+
+
+
+  
+
+
+
+
+
+    <br><br><br><br><br><br>
+
+    <div class="content1">
+        <table>
+            <tr>
+            <td class="text1">Contact Us At:</td>
+            <td class="text1">bombayedtech@gmail.com</td>
+            <td class="text1">+91 819877</td>
+        </tr>   
+        
+        </table>
+        
+    </div>
+
+
+
+<!-- @TODO: Move away from custom props before injecting the polyfill, as it can't handle it -->
+
+
+
+    
+
+
+
+
+
+
+
+    <footer>
+        <p>Developed by Bombay Coders</p>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="animation.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="animation.js"></script>

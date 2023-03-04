@@ -1,0 +1,178 @@
+nav {
+    
+    height: 50px;
+  }
+  
+  .nav-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .nav-left a.company-name {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 20px;
+  }
+  
+  .nav-left a.company-name:hover {
+    color: #ddd;
+  }
+  
+  .nav-left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .nav-left li {
+    margin: 0 10px;
+  }
+  
+  .nav-left a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  
+  .nav-left a:hover {
+    color: #ddd;
+  }
+  body {
+    background-image: url("Home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.checkbox-container label {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.other-field {
+    display: none;
+}
+
+.dropdown-container {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.dropdown-container select {
+    padding: 5px;
+    height: 40px;
+    line-height: 1.2;
+}
+
+.radio-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.radio-container label {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4d80e4;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3c64b3;
+}
+
+footer
+{
+    text-align: center;
+    padding: 1px;
+    margin-left: 0px;
+    padding-right: 0px;
+    background-color: #000;
+    color: white;
+}
+
+.bg {
+  background-image: url("HNEW.jpg");
+}
+
+#login-btn1 {
+  float:inline-start;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  align-items:center;
+  /*box-shadow: 0px 4px 20px 0px #49c628a6;*/
+  background-image: linear-gradient(135deg, #000 10%, #000 100%);
+}

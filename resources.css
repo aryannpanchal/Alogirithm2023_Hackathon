@@ -1,0 +1,357 @@
+
+
+nav {
+    margin-top: 20px;
+      padding-top: 100px;
+      height: 50px;
+    }
+    
+    .nav-left {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100%;
+    }
+    
+    .nav-left a.company-name {
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 0 20px;
+    }
+    
+    .nav-left a.company-name:hover {
+      color: #ddd;
+    }
+    
+    .nav-left ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100%;
+    }
+    
+    .nav-left li {
+      margin: 0 10px;
+    }
+    
+    .nav-left a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 0 10px;
+    }
+    
+    .nav-left a:hover {
+      color: #ddd;
+    }
+  
+    #login-btn {
+      background-color: #0000;
+      color: rgb(255, 255, 255);
+      border: none;
+      padding: 2px 10px;
+      font-size: 10px;
+      cursor: pointer;
+    }
+  
+    #login-btn1 {
+      float:inline-start;
+      color: #fff;
+      font-size: 16px;
+      padding: 10px 30px;
+      border-radius: 50px;
+      display: inline-block;
+      border: 0;
+      outline: 0;
+      align-items:center;
+      /*box-shadow: 0px 4px 20px 0px #49c628a6;*/
+      background-image: linear-gradient(135deg, #000 10%, #000 100%);
+    }
+    
+    #login-btn:hover {
+      background-color: #0069d9;
+    }
+    
+  #section1
+  {
+      color: #030450;
+      background-color: #caf0f8;
+  
+      padding-top: 25px;
+      padding-bottom: 50px;
+  
+  }
+  .content0 {
+    display: flex;
+    justify-content: left;
+    align-items: last baseline
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-style: italic;
+  
+  
+  
+  
+    @import url('https://fonts.googleapis.com/css?family=Archivo:400,700');
+  
+    body {
+      font-family: 'Archivo'; 
+      font-weight: bold;
+      margin: 100px;
+    }
+    
+    content0 {
+      font-size: 5vw;
+      cursor: cell;
+      text-align: center;
+      line-height: 5.5vw;
+    }
+    
+    content0 span {
+      transition: color 3s;
+      transition-delay: 1s;
+      letter-spacing: -0.2vw;
+    }
+    
+    content0 span:hover {
+      transition: color 0s;
+    }
+    
+    content0 span:nth-child(1n):hover {
+      color: #9875E0;
+    }
+    
+    content0 span:nth-child(2n):hover {
+      color: #53FBDD;
+    }
+    
+    content0 span:nth-child(3n):hover {
+      color: #00A4DD;
+    }
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  .content1 {
+      
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      background-color: #03045e;
+      padding: 20px;
+      padding-bottom: 70px;
+      margin-bottom: 0px;
+    }
+  .content2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      background-color: #caf0f8;
+      padding: 50px;
+      margin-bottom: 0px;
+    }
+  
+    .content3 {
+      
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      background-color: #03045e;
+      padding: 40px;
+      padding-bottom: 200px;
+  
+      margin-bottom: 0px;
+    }
+    .text0 {
+      font-size: 30px;
+      width: 90%;
+      color: black
+      padding-left: 30px;
+      @import url('https://fonts.googleapis.com/css?family=Archivo:400,700');
+  
+  body {
+    font-family: 'Archivo'; 
+    font-weight: bold;
+    margin: 100px;
+  }
+  
+  content0 {
+    font-size: 5vw;
+    cursor: cell;
+    text-align: center;
+    line-height: 5.5vw;
+  }
+  
+  content0 span {
+    transition: color 3s;
+    transition-delay: 1s;
+    letter-spacing: -0.2vw;
+  }
+  
+  content0 span:hover {
+    transition: color 0s;
+  }
+  
+  content0 span:nth-child(1n):hover {
+    color: #9875E0;
+  }
+  
+  content0 span:nth-child(2n):hover {
+    color: #53FBDD;
+  }
+  
+  content0 span:nth-child(3n):hover {
+    color: #00A4DD;
+  }
+  
+  
+    
+    }
+  
+  
+    .text1 {
+      font-size: 30px;
+      width: 90%;
+      color: #fff;
+      padding-left: 30px;
+    }
+  
+    .text2 {
+      font-size: 30px;
+      width: 90%;
+      color: #03045e;
+      padding-left: 250px;
+    }
+    
+    
+    .login-btn {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      padding-right: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    
+    .img{
+      display: flex;
+      width: 95px;
+      height: 95px;
+      margin-bottom: 0px;
+      border-radius: 50%;
+  }
+    
+    
+    
+    
+    
+    
+  footer
+  {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      color: white;
+  }
+    
+  
+  
+  
+  @import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    position: relative;
+    letter-spacing: 0.04em;
+  }
+  body {
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 300;
+  }
+  .section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg1 {
+    background-color: #ccc;
+  }
+  .bg2 {
+    background-color: #333;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0;
+  }
+  .revealUp {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .spacer {
+    height: 50vh;
+    background-color: #000;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    color: #fff;
+  }
+  
+  .item img {
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+    
+  }
+  
+  .item p {
+    margin-top: 10px;
+    text-align: center;
+    color:#fff;
+  }
+
+  .resimg{
+    width: 120px;
+  }
+
+  .res{
+    size: 1000px;
+    color: #fff;
+  }
